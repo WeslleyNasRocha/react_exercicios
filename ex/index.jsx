@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Component from './componente';
+import Padrao, { Primeiro, Segundo } from './componente';
 
 ReactDOM.render(
-  <Component value="kkkk, eae men" />,
+  <div>
+    <Padrao />
+    <Primeiro />
+    <Segundo />
+  </div>,
   document.getElementById('app')
 );
