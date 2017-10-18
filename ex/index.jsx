@@ -1,13 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Padrao, { Primeiro, Segundo } from './componente';
+import SilvaFamily from './silvaFamily';
 
-ReactDOM.render(
-  <div>
-    <Padrao />
-    <Primeiro />
-    <Segundo />
-  </div>,
-  document.getElementById('app')
-);
+ReactDOM.render(<SilvaFamily />, document.getElementById('app'));
