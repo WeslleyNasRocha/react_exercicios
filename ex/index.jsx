@@ -3,4 +3,7 @@ import ReactDOM from 'react-dom';
 
 import Component from './componente';
 
-ReactDOM.render(<Component />, document.getElementById('app'));
+ReactDOM.render(
+  <Component value="kkkk, eae men" />,
+  document.getElementById('app')
+);
