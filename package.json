@@ -2,6 +2,9 @@
   "name": "Exercicios_React",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --progress --colors --inline --hot"
+  },
   "repository": "git@github.com:WeslleyNasRocha/react_exercicios.git",
   "author": "Weslley Rocha",
   "license": "MIT",
